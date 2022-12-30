@@ -2,7 +2,7 @@ import os
 import subprocess
 import time
 
-ARDUINO_CLI = "./arduino-cli.exe"
+ARDUINO_CLI = "arduino-cli"
 SKETCHES = os.listdir("sketches")
 times = []
 if __name__ == '__main__':
